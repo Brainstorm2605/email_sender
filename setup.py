@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="mail_sender",
-    version="0.2.0",
+    name="ai_agent_mail_sender",
+    version="0.2.1",
     author="MD ZAID ANWAR",
     author_email="zaidanwar26@gmail.com",
     description="A secure and enterprise-grade email sender library for any workflow, including AI applications",
@@ -32,7 +32,7 @@ setup(
         "aiosmtplib>=2.0.0",
         "jinja2>=3.0.0",
     ],
-    keywords=["email", "smtp", "mail", "sender", "async", "enterprise", "secure"],
+    keywords=["email", "workflow", "ai", "agent", "mail", "ai agent","llm"],
     package_data={
         "mail_sender": ["templates/*.html"],
     },
