@@ -35,7 +35,7 @@ Mail Sender is a Python library that provides a simple yet powerful interface fo
 ## 📦 Installation
 
 ```bash
-pip install mail_sender
+pip install ai-agent-mail-sender
 ```
 
 ## 🚀 Quick Start
